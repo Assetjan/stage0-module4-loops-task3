@@ -4,7 +4,7 @@ public class RangeSum {
     public void printSumInclusive(int firstBoarder, int secondBoarder) {
         int sum = 0;
         int j = firstBoarder+1;
-        for (int i = firstBoarder; i < secondBoarder; i++){
+        for (int i = firstBoarder; i <= secondBoarder; i++){
             sum = sum + j;
             j++;
         }
