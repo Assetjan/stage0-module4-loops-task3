@@ -6,8 +6,8 @@ public class DigitsSum {
         String abc = Integer.toString(l);
         int sum = 0;
         for (int i = 0; i < abc.length(); i++){
-            sum = sum + (t%10);
-            t /= 10;
+            sum = sum + (l%10);
+            l /= 10;
         }
         System.out.println(sum);
     }
